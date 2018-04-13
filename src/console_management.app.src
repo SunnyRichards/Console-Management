@@ -1,0 +1,25 @@
+%%%-------------------------------------------------------------------
+%%% @author Aiden_Richie
+%%% @copyright (C) 2017, <COMPANY>
+%%% @doc
+%%%
+%%% @end
+%%% Created : 13. Oct 2017 3:38 PM
+%%%-------------------------------------------------------------------
+{application, console_management, [
+  {description, "An OTP application"},
+  {vsn, "1"},
+  {registered, []},
+  {mod, {console_management_app, []}},
+  {applications,
+  [kernel,
+   stdlib,
+   cowboy
+  ]},
+  {env, []},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+]}.

@@ -2,9 +2,7 @@
 
 ## Contacts
 
-Author - Sunny Richards  ([sunny@lynkit.in](mailto:sunny@lynkit.in))
-
-Website - [https://www.transecur.com](https://www.transecur.com)
+Author - Sunny Richards  ([sunny.s@redbus.com](mailto:sunny.s@redbus.com))
 
 ## Overview
 console_management is an licensing server for (user and organisation) written in Erlang. 

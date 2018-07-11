@@ -78,7 +78,7 @@ do_it_first() ->
   mnesia:create_table(client_token,[{disc_copies, [node()]}, {index, [user_id]}, {attributes, record_info(fields, client_token)}]).
 
 create_database() ->
-  {ok,Pid} = mysql:start_link([{host, "localhost"}, {user, "root"},{password, "sanders16"}]),
+  {ok,Pid} = mysql:start_link([{host, "localhost"}, {user, "root"},{password, "your_password"}]),
 
   mysql:query(Pid, "create database if not exists "++"testingdb"),
 
